@@ -5,7 +5,7 @@ const SkeletonCard = () => {
     return (
       <section>
         <h2 className="section-title">
-          <Skeleton height={30} width={300} />
+          <Skeleton duration={1} height={30} width={300} />
         </h2>
   
         <ul className="list">
